@@ -1,0 +1,88 @@
+#variables in python
+
+#if 5>3#:
+    #print("hello world") # if the space is not under the condition it will show intendtio#n error
+
+#
+#x=5
+#y="john"    (For declaring variable in python we use only simple tags to fing it not more complicated#
+
+###print(x)
+#p#rint(y)
+
+#x=str(5)
+#y=int(5#)
+#z=float(#5)
+
+#print(x)    (so the output will get is 5-string 5-int 5.0-float)
+##pr#int(y)    this is used to declare string
+##p#rint(z)
+
+#a=4
+#A=5            #as python is case sensitive language it will not print 'a' and 'A' same
+##print(a)
+##print(A)
+
+#variable can start with _ or small letter but it will not start with no. like 1 but it will contain numbers
+
+#example
+#a_c=4
+
+#a = "apple"
+#b = "ball"
+#c = "c#at"
+
+#print (a,b,c)
+
+
+#you can also give multiple variables same content
+#example
+ 
+#x=y=z= "oranges" this is string
+#print(x)
+##print(y)
+#print(z)
+
+#x = "hello world"     (Array to find the place of word)
+#print(x[4]) 
+# = 0  because the place starts with 0,1,2,3,.... 
+
+#x = "hello world!!" for rrunning code letter by letter below each alphabets (to loop through each character)
+
+#for a in x:
+#     print(a)
+
+#x = "hello world"
+#print (len(x)) {to find out length of string}
+
+
+#x = "hello from the world"
+#print ("the" in x)   { to find that word is present or not } also it gives boolean value like true and false
+
+
+#x = "hello world"
+#print (x[2:5]){to print specific value from 2nd word to 5th}
+
+# we can also replace it by :5 to print value from starting till 5th place
+
+
+#x= "hello world"
+#print(x.upper())   {to print in upper case or lower case}
+
+#x= "hello world     "
+#print(x.strip())   {to remove space barfrom string}
+
+#x= "hello world"
+#print(x.replace("h", "y"))  {this is use to replace word}
+
+
+
+#x = "hello world"
+#print (x.split(","))      { to split word we use this}
+
+
+
+#a = "hello"
+#b = "world"
+
+#print (a+" "+b) to add word in space between them
